@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <th>NAME</th>          stu_name                                                
+        <th>CLASS</th>        class
+		<th>STREAM</th>       stream
+		<th>GENDER</th>       gendr
+		<th>DOB</th>           mm_dob
+		<th>SESSION</th>              session
+		<th>STUDENT WATSAPP NO.</th>   mobile2
+		<th>MOTHER's NAME</th>        mot_name
+		<th>MOTHER's OCCUPATION</th>    mot_occ
+		<th>MOTHER's ANNAUL INCOME</th>    mot_income
+		<th>FATHER's NAME</th>          fat_name
+		<th>FATHER's OCCUPATION</th>   fat_occ
+		<th>FATHER's ANNUAL INCOME </th>    fat_income
+		<th>RELIGION</th>    religion
+		<th>CATEGORY</th>     category
+		<th>GUARDIAN's NAME</th>  gaurd_name
+		<th>CONTACT NO.</th> guard_no
+		<th>RELATION</th> guard_relation
+        <th>ADDRESS</th>   address
+		<th>MOBILE NO.</th>  mobile
+		<th>CORRES. ADDESS</th> address_co
+		<th>MOBILE NO.</th>   mobile_co
+		<th>SCHOOL NAME & ADDRESS</th>   school1_name
+		<th>CLASS</th>  school1_class
+		<th>SESSION</th>  school1_session
+		<th>CURRICULUM</th> school1_curri
+		<th>SUBJECT</th>  school1_sub
+		<th>TRANSPORT</th>  is_transport
+		
+		
+		
+		//$user_id=$_SESSION['uid']; //
+		$status='Enquiry';
+		$is_visit = $_REQUEST['is_visit'];
+		
+		$type = 'Online';
+		$class=$_REQUEST['class'];
+		//$sec=$_REQUEST['sec'];
+		//$form_no=$_REQUEST['form_no'];
+		$stu_name=$_REQUEST['stu_name'];
+	  //$stu_name_hindi=$_REQUEST['stu_name_hindi'];
+	  $fat_name= $_REQUEST['fat_name'];
+		$mot_name= $_REQUEST['mot_name'];
+		$fat_income= $_REQUEST['fat_income'];
+		$guard_name= $_REQUEST['guard_name'];
+	$guard_no= $_REQUEST['guard_no'];
+	   $guard_relation= $_REQUEST['guard_relation'];
+	 $mot_occ= $_REQUEST['mot_occ'];
+	$mot_income= $_REQUEST['mot_income'];
+	//$house= $_REQUEST['house'];
+	 $stream= $_REQUEST['stream'];
+	// $school1_sub= $_REQUEST['school1_sub'];
+	 $adm_class= $_REQUEST['class'];
+	// $school2_sub= $_REQUEST['school2_sub'];
+	 //$school3_sub= $_REQUEST['school3_sub'];
+	 $address= $_REQUEST['address'];
+	 $mobile= $_REQUEST['mobile'];
+	 $mobile2= $_REQUEST['mobile2'];
+	 $address_co= $_REQUEST['address_co'];
+	 $mobile_co= $_REQUEST['mobile_co'];
+	 //$mobile2_co= $_REQUEST['mobile2_co'];
+	 $gender= $_REQUEST['gender'];
+	 $dd_dob =  $_REQUEST['dd_dob'];
+	 $mm_dob =  $_REQUEST['mm_dob'];
+	 $yyyy_dob =  $_REQUEST['yyyy_dob'];
+	//$dob= $_REQUEST['dob'];
+	$dob=$yyyy_dob."-".$mm_dob."-".$dd_dob;
+	$do_adm= $_REQUEST['do_adm'];
+	 $fat_occ= $_REQUEST['fat_occ'];
+	 $religion= $_REQUEST['religion'];
+	 $category= $_REQUEST['category'];
+	 $school1_name= $_REQUEST['school1_name'];
+	 $school1_class= $_REQUEST['school1_class'];
+	 $school1_curri= $_REQUEST['school1_curri'];
+	 $school1_session= $_REQUEST['school1_session'];
+	 $is_transport =  $_REQUEST['is_transport'];
+	$session =  $_REQUEST['session']; 
+	if($_FILES['cand_photo']['size']>2097152){
+		 $status1 = "102";
+	 }
+	else{
+		 $cand_photo="pictures/prospectus/".rand(1000,1000000).basename($_FILES['cand_photo']['name']);
+		 move_uploaded_file($_FILES["cand_photo"]["tmp_name"],$cand_photo);
+		 

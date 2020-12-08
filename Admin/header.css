@@ -1,0 +1,70 @@
+body{
+	
+	
+}
+
+#header {
+	background-color: rgba(255, 255, 255, 0.97); 
+    width:100%;
+}
+
+
+.list-inline {
+	box-sizing: border-box; 
+	margin:0 px;
+	margin-right: 100px;  
+	display: inline-block;
+	float: right;
+	color: #5a5a5a;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 40px;
+    box-sizing: border-box;
+    float: right;
+    list-style: none;
+    padding: 0px;
+}
+
+
+.navbar {
+	background:rgba(255, 255, 255, 0.97); ;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+
+
+.ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav>li>a {
+    position: relative;
+    display: block;
+}
+
+.signupfree {
+	margin-right: 10px;
+	margin-top:9px;
+    padding: 0 16px;
+    min-width: 112px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #0e71eb;
+    border-color: #0e71eb;
+}

@@ -1,0 +1,226 @@
+/*body{
+    background-image:url(banner1.jpg);
+	padding:0px;
+}*/
+
+
+.banner {
+    height: 560px;
+}
+
+.banner{
+    background: url(banner1.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	background-attachment: fixed;
+	display: block;
+}
+
+.container{
+	max-width: 9920px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact{
+	padding-bottom: 3rem;
+	padding-top: 3rem
+}
+
+.navbar.sticky-nav.fixed-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+ input[type="submit"]:hover {
+    background: #42a5f5;
+    letter-spacing: 6px;
+}
+
+
+
+
+/*nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav fixed-header">
+				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+					<ul class="navbar-nav justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link text-white" href="index.php">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="about.php">About Us</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Courses
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="cse.php">CSE</a>
+								
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="civil.php">Civil</a>
+								
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="ece.php">ECE/EE</a>
+								
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="course.php">Mechnical</a>
+								
+								
+							</div>
+						</li>
+												<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Services
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="services.php">Campus Training</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="services.php">Classroom Training</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="services.php">Corporate Training</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="services.php">Industrial Training</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="services.php">Online Training</a>
+							
+							</div>
+						</li>
+						
+						<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Projects
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="https://www.livemytraining.com/ec-eee/">ECE &amp; EEE</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://www.livemytraining.com/electrical/">Core Electrical </a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://www.livemytraining.com/computer-science/">Computer Science</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://www.livemytraining.com/mechanical/">Mechnical</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://www.livemytraining.com/tranding-projects-ec-eee/">Trending Projects</a>
+							
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="blog.php">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="gallery.php">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="contact.php">Contact Us</a>
+						</li>
+					</ul>
+
+<div class="col-sm-4 col-6 top-login-butt text-right mt-sm-2" style="margin-left:60px">
+								<a href="https://www.livemytraining.com/" class="button-head-mow3 text-white" style="background:#032b4c">Online Training</a>
+							</div>
+	
+				</div>
+			</nav>
+
+
+<div class="navigation-w3ls">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav">
+				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+					<ul class="navbar-nav justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link text-white" href="index.php">Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="about.php">About Us</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Courses
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="cse.php">CSE</a>
+								
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="civil.php">Civil</a>
+								
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="ece.php">ECE/EE</a>
+								
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="course.php">Mechnical</a>
+								
+								
+							</div>
+						</li>
+												<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Services
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="services.php">Campus Training</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="services.php">Classroom Training</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="services.php">Corporate Training</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="services.php">Industrial Training</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="services.php">Online Training</a>
+							
+							</div>
+						</li>
+						
+						<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Projects
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="https://www.livemytraining.com/ec-eee/">ECE &amp; EEE</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://www.livemytraining.com/electrical/">Core Electrical </a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://www.livemytraining.com/computer-science/">Computer Science</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://www.livemytraining.com/mechanical/">Mechnical</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="https://www.livemytraining.com/tranding-projects-ec-eee/">Trending Projects</a>
+							
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="blog.php">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="gallery.php">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="contact.php">Contact Us</a>
+						</li>
+					</ul>
+
+<div class="col-sm-4 col-6 top-login-butt text-right mt-sm-2" style="margin-left:60px">
+								<a href="https://www.livemytraining.com/" class="button-head-mow3 text-white" style="background:#032b4c">Online Training</a>
+							</div>
+	
+				</div>
+			</nav>
+		</div>*/
+
+
+
+
+
+
